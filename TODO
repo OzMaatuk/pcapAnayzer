@@ -1,0 +1,34 @@
+Inflight Module
+===============
+
+The Inflight Module currently support "packet mode". Another
+interesting feature is a byte mode. I.e. how many bytes are
+in flight without being acknowledged. This should provide a
+nearly good understanding how the TCP window is used from
+in-flight perspective.
+
+
+file preduce will be a zip file.
+we will include app captcp app libs and
+add a python main file, will provide a list of optios
+
+*** NOTICE ***
+have to install the application in first use.
+
+WARNING! please run the following for checking dependecies at least once:
+apt install python-dpkt python-numpy make gnuplot texlive-latex-extra mupdf wireshark
+
+this application checked on ubuntu OS.
+**************
+1. install
+2. import pcap file
+3. convert cap file to pcap
+
+----------------------------------------------------------------------------------------
+
+when selecting the install, will execute bash commands that will make in the captcp folder. (pluse apt install editpcap)
+
+when selecting convert cap to pcap will execute bash commands editcap -F pcap input.cap output.pcap for proper input.
+
+when selecting import pcap file will open a new menu:
+	
